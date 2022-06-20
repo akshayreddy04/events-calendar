@@ -13,7 +13,7 @@ int back();
 
 struct eventinfo{
     int date,month,year;
-    char name[100],summary[100];
+    char name[100],summary[200];
 };
 
 int main()
